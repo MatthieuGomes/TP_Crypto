@@ -32,7 +32,20 @@ def testing_hash_functions():
         print(f"SHA1: {sha1_hash}")
         print("-" * 30)
 
+def testing_long_message():
+    long_message=b"""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"""
+    md5_hash = hash_md5(long_message)
+    sha1_hash = hash_sha1(long_message)
+    print(f"MD5: {md5_hash}")
+    print(f"SHA1: {sha1_hash}")
+
+
+
 if __name__ == "__main__":
     # Example usage
     testing_hash_functions()
+    testing_long_message()
 # TP Crypto --- IGNORE ---
