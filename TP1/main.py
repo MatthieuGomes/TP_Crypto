@@ -39,6 +39,7 @@ def testing_long_message():
     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"""
     md5_hash = hash_md5(long_message)
     sha1_hash = hash_sha1(long_message)
+    print(f"Long Message Test:{long_message}")  # Print only the beginning of the long message
     print(f"MD5: {md5_hash}")
     print(f"SHA1: {sha1_hash}")
 
