@@ -25,5 +25,15 @@ il est conseillé d'utiliser SHA-256
 
 
 ### Question 3.5
+Car le chiffre de Vigenère n'est pas un chiffrage aléatoire et l'indice de coincidence permet de mettre en évidence les correspondance de fréquences
 
+### Question 3.6
 
+### Question 3.7
+
+### Question 3.8
+
+Comme son nom l'indique une cle one time pad est à utilisation unique, sinon il devient possible de déchiffrer le messsage 
+
+### Question 3.9
+Non la clé est à usage unique
