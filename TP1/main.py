@@ -22,11 +22,17 @@ def hash_sha1(data):
     h.update(data)
     return h.hexdigest()
 
+def testing_hash_functions():
+    test_messages = [b"ENSEA", b"eNSEA", b"eNSeA", b"EN5EA"]
+    for msg in test_messages:
+        md5_hash = hash_md5(msg)
+        sha1_hash = hash_sha1(msg)
+        print(f"Message: {msg}")
+        print(f"MD5: {md5_hash}")
+        print(f"SHA1: {sha1_hash}")
+        print("-" * 30)
+
 if __name__ == "__main__":
     # Example usage
-    msg_list = [b"ENSEA", b"eNSEA", b"eNSeA", b"EN5EA"]
-    for msg in msg_list:
-        print(f"Message: {msg}")
-        print("MD5:", hash_md5(msg))
-        print("SHA1:", hash_sha1(msg))
+    testing_hash_functions()
 # TP Crypto --- IGNORE ---
