@@ -1,6 +1,6 @@
 # TP Crypto
 
-## TP1
+## Exercice 1
 
 ### Question 1.1
 
@@ -22,6 +22,13 @@ MD5 et SHA-1 ne sont plus sûr car il existe des attaques par collisions réussi
 
 il est conseillé d'utiliser SHA-256
 
+### Question 1.5
+
+Une fonction de hachage salée ajoute une valeur aléatoire ou semi aléatoire (le sel) avant le hachage du mot de passe. Cela permet d'éviter les attaques par tables arc-en-ciel et rend plus difficile la découverte des mots de passe par force brute.
+
+
+
+## Exercice 3
 
 ### Question 3.1
 Avec un IC de 0.45, on peut estimer que le texte est chiffré avec un chiffre de Vigenère.
@@ -50,3 +57,5 @@ Comme son nom l'indique une cle one time pad est à utilisation unique, sinon il
 
 ### Question 3.9
 Non la clé est à usage unique
+
+
