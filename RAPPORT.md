@@ -259,3 +259,26 @@ La condition mathématique pour qu'un hash de bloc soit valide dans le réseau B
 
 ### Question 4.36
 
+
+## Exercice 5
+
+### Question 5.1
+
+* ciphertext : text chiffré
+* iv : vecteur d'initialisation
+* key_metadata : métadonnées de la clé
+    * algorithm : algorithme de chiffrement utilisé
+    * params : paramètres spécifiques à l'algorithme
+        * iterations : nombre d'itérations pour la dérivation de clé
+
+* salt : sel utilisé pour la dérivation de clé
+
+### Question 5.2
+
+* le ciphertext, l'iv et le salt sont représentés en base64
+* le salt et le iv sont de taille fixe (16 bytes chacun)
+
+
+### Question 5.3
+
+
