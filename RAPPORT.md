@@ -34,12 +34,12 @@ Une fonction de hachage salée ajoute une valeur aléatoire ou semi aléatoire (
 * Emetteur : Google Trust Services
 * Sujet : google.com
 * Période de validité : du 24 novembre 2025 au 16 février 2026
-* Clé publique : 
+* Clé publique : 04:A9:3A:B5:0A:81:02:71:B8:11:B1:8B:3C:7E:92:6C:B1:E5:1A:C3:E2:34:26:A3:CA:8B:29:2B:B0:26:A1:87:AB:7D:9B:57:35:99:18:3E:BB:1F:D4:78:39:9A:D4:76:FC:8F:68:A7:F9:73:CC:5C:47:47:5F:12:B9:63:06:07:3D
 * Algorithme : eliptic curve 
 * Algorithme de signature : SHA256 avec RSA Encryption
 * Fingerprint :
-    * SHA-1 :
-    * SHA-256 : 
+    * SHA-1 : D5:5B:91:A8:76:1F:03:C2:6B:E1:A1:25:DF:3A:92:AC:22:6E:CC:16
+    * SHA-256 : CF:9B:D9:59:20:BB:B8:2F:42:9E:94:CD:4F:3F:EB:85:61:41:5D:9E:24:17:FE:E2:85:05:E4:62:30:A3:E1:21
 
 ### Question 2.2
 
