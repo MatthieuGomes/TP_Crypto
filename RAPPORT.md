@@ -43,17 +43,26 @@ Une fonction de hachage salée ajoute une valeur aléatoire ou semi aléatoire (
 
 ### Question 2.2
 
+une autorité de certification (CA) est une entité de confiance qui émet des certificats numériques. Son rôle principal est de vérifier l'identité des entités (personnes, organisations, sites web) et de garantir que les clés publiques contenues dans les certificats appartiennent bien à ces entités.
+
 ### Question 2.3
+
+Google trust service fait appel à une autorité de certification (WR2) pour émettre ses certificats. WR2 est une autorité de certification reconnue qui valide l'identité de Google avant d'émettre le certificat numérique. Cette dernière s'appuie elle-même sur une autorité de certification racine (Root CA) pour garantir la chaîne de confiance.
 
 ### Question 2.4 
 
+Lorsqu'un certificat est revoqué, cela signifie qu'il n'est plus considéré comme valide avant sa date d'expiration prévue. Par conséquent, les entités qui tentent d'utiliser ce certificat pour établir des connexions sécurisées (comme HTTPS) ne pourront pas le faire, car les navigateurs et autres logiciels vérifieront la liste de révocation des certificats (CRL) ou utiliseront le protocole OCSP pour s'assurer que le certificat est toujours valide. Si le certificat est révoqué, la connexion sera bloquée ou un avertissement sera affiché à l'utilisateur.
+On peut également consulter la CRL (Certificate Revocation List) ou utiliser le protocole OCSP (Online Certificate Status Protocol) pour vérifier si un certificat a été révoqué.
+
 ### Question 2.5
+
+*  Alternative Names: www.google.com, m.google.com, google.com => permet au certificat de sécuriser plusieurs domaines ou sous-domaines.
+*  Key Usage: Digital Signature, Key Encipherment => spécifie les usages autorisés de la clé publique contenue dans le certificat, tels que la signature numérique et le chiffrement de clés.
+*  Extended Key Usage: TLS Web Server Authentication, TLS Web Client Authentication => définit des usages supplémentaires pour la clé publique, notamment l'authentification des serveurs web TLS et des clients
 
 ### Question 2.6
 
-
-
-
+C'est un certificat dont l'autorité de certification est elle-même. 
 
 ## Exercice 3
 
