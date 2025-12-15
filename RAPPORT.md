@@ -281,4 +281,16 @@ La condition mathématique pour qu'un hash de bloc soit valide dans le réseau B
 
 ### Question 5.3
 
+dans l'extension metamask browser, le chiffrement AES-GCM est utilisé pour sécuriser les données sensibles telles que les clés privées des utilisateurs.
+
+### Question 5.4
+
+le chiffrement AES exite en mode CBC (Cipher Block Chaining), CTR (Counter), GCM (Galois/Counter Mode) : 
+- CBC : chaque bloc de texte clair est XORé avec le bloc chiffré précédent avant d'être chiffré. Cela nécessite un vecteur d'initialisation (IV) pour le premier bloc.
+- CTR : transforme le bloc de chiffrement en un flux de chiffrement en combinant un compteur avec un nonce. Chaque bloc de texte clair est XORé avec le flux généré.
+- GCM : combine le chiffrement en mode CTR avec une authentification de message, offrant à la fois confidentialité et intégrité des données.
+
+Dans le cas de métamask, le mode utilisé est le GCM car il offre à la fois confidentialité et intégrité des données, ce qui est crucial pour la sécurité des clés privées des utilisateurs.
+
+### Question 5.5
 
