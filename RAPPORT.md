@@ -27,6 +27,33 @@ il est conseillé d'utiliser SHA-256
 Une fonction de hachage salée ajoute une valeur aléatoire ou semi aléatoire (le sel) avant le hachage du mot de passe. Cela permet d'éviter les attaques par tables arc-en-ciel et rend plus difficile la découverte des mots de passe par force brute.
 
 
+## Exercice 2   
+
+### Question 2.1
+
+* Emetteur : Google Trust Services
+* Sujet : google.com
+* Période de validité : du 24 novembre 2025 au 16 février 2026
+* Clé publique : 
+* Algorithme : eliptic curve 
+* Algorithme de signature : SHA256 avec RSA Encryption
+* Fingerprint :
+    * SHA-1 :
+    * SHA-256 : 
+
+### Question 2.2
+
+### Question 2.3
+
+### Question 2.4 
+
+### Question 2.5
+
+### Question 2.6
+
+
+
+
 
 ## Exercice 3
 
